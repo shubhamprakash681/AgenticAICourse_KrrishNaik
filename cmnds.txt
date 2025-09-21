@@ -1,0 +1,20 @@
+####VENV cration####
+1. Using pip (conda)
+conda create -p venv python==3.13
+pip install -r ./requirements.txt
+
+2. Using uv
+uv init project_name
+uv venv
+uv add pandas
+uv add -r ./requirements.txt
+uv add --dev -r requirements-dev.txt
+####VENV cration####
+
+####Open Source LLM & Embedding Models####
+1. Ollama
+ollama run model_name
+ollama ls
+ollama ps
+####Open Source LLM & Embedding Models####
+
